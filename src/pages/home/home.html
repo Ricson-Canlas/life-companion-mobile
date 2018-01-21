@@ -1,15 +1,35 @@
-<ion-content padding>
-  <img src="assets/imgs/main-logo.png">
-  <p>Enter mobile number to continue</p>
-  <form action="">
-  	<div>
-  		<input placeholder="Country Code" type="number"> <input placeholder="Number" type="number">
-  	</div>
-  <div>
-  	<button ion-button>Continue</button>
+<ion-content>
+  <div class="header-logo">
+    <img src="assets/imgs/main-logo.png">
+  </div> 
+  <div class="content">
+    <div class="box-wrapper">
+      <p class="text-orange">Enter mobile number to continue</p>
+      <form action="">
+        <div class="phone-number">
+          <div class="left">
+            <input type="number">
+          </div>
+          <div class="right">
+            <input type="number">
+          </div>
+        </div>
+      <div>
+        <button class="btn-gradient">CONTINUE</button>
+      </div>
+      </form>
+      <p class="continue-text">or continue with</p>
+      <div class="btn-wrapper">
+        <div class="col">
+          <button class="btn-facebook">Facebook</button>
+        </div>
+        <div class="col">
+          <button class="btn-twitter">Twitter</button>
+        </div>     
+      </div>
+      <div class="login-with">
+        <a href="#">Login with LCID</a>
+      </div>
+    </div>
   </div>
-  </form>
-  <p>or continue with</p>
-  <button ion-button>Facebook</button>
-  <button ion-button>Twitter</button>
 </ion-content>

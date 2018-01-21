@@ -1,3 +1,123 @@
-page-home {
+.header-logo {
+	padding: 20px;
+	height: 230px;
+	background: #58595B;
 
+	img {
+		display: block;
+		margin: 0 auto;
+		width: 80px;
+	}
+}
+
+.content {
+	padding: 20px;
+	background: #F2F3F7;
+
+	.box-wrapper {
+		margin-top: -110px;
+		padding: 25px 15px;
+		background: #fff;
+
+		p {
+			margin: 0;
+			color: #9494AF;
+			font-size: 14px;
+			text-align: center;
+
+			&.text-orange {
+				color: #F26722;
+			}
+
+			&.continue-text {
+				margin: 20px 0;
+			}
+		}
+
+		.phone-number {
+			margin: 20px 0;
+			overflow: hidden;
+
+			.left {
+				float: left;
+				padding-right: 10px;
+				width: 35%;
+
+				input {
+					padding-left: 25px;
+					text-align: right
+				}
+			}
+
+			.right {
+				float: left;
+				width: 65%;
+
+				input {
+					text-align: center;
+				}
+			}
+
+			input {
+				padding: 10px;
+				width: 100%;
+				color: #018ABE;
+				font-size: 14px;
+				border: 1px solid #ccc;
+				border-radius: 25px;
+			}
+
+			input[type=number]::-webkit-inner-spin-button, 
+			input[type=number]::-webkit-outer-spin-button { 
+			  -webkit-appearance: none; 
+			  margin: 0; 
+			}
+		}
+
+		button {
+			display: block;
+			padding: 12px;
+			width: 100%;
+			color: #fff;
+			font-size: 15px;
+			border-radius: 25px;
+
+			&.btn-gradient {
+				background: linear-gradient(to right, #E51D35 , #F26722);
+			}
+
+			&.btn-facebook {
+				background: #3A589E;
+			}
+
+			&.btn-twitter {
+				background: #1DA1F3;
+			}
+		}
+
+		.btn-wrapper {
+			margin: 0 -2px 20px;
+			overflow: hidden;
+
+			.col {
+				float: left;
+				padding: 0 2px;
+				width: 50%;			
+
+				button {
+
+				}
+			}
+		}
+
+		.login-with {
+			text-align: center;
+
+			a {
+				color: #018ABE;
+				font-size: 15px;
+				text-decoration: none;
+			}
+		}
+	}
 }

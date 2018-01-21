@@ -25677,3 +25677,124 @@ ion-navbar.toolbar {
   min-height: calc(46px + constant(safe-area-inset-bottom));
   min-height: calc(46px + env(safe-area-inset-bottom));
 }
+
+.header-logo {
+  padding: 20px;
+  height: 230px;
+  background: #58595B;
+}
+
+.header-logo img {
+  display: block;
+  margin: 0 auto;
+  width: 80px;
+}
+
+.content {
+  padding: 20px;
+  background: #F2F3F7;
+}
+
+.content .box-wrapper {
+  margin-top: -110px;
+  padding: 25px 15px;
+  background: #fff;
+}
+
+.content .box-wrapper p {
+  margin: 0;
+  color: #9494AF;
+  font-size: 14px;
+  text-align: center;
+}
+
+.content .box-wrapper p.text-orange {
+  color: #F26722;
+}
+
+.content .box-wrapper p.continue-text {
+  margin: 20px 0;
+}
+
+.content .box-wrapper .phone-number {
+  margin: 20px 0;
+  overflow: hidden;
+}
+
+.content .box-wrapper .phone-number .left {
+  float: left;
+  padding-right: 10px;
+  width: 35%;
+}
+
+.content .box-wrapper .phone-number .left input {
+  padding-left: 25px;
+  text-align: right;
+}
+
+.content .box-wrapper .phone-number .right {
+  float: left;
+  width: 65%;
+}
+
+.content .box-wrapper .phone-number .right input {
+  text-align: center;
+}
+
+.content .box-wrapper .phone-number input {
+  padding: 10px;
+  width: 100%;
+  color: #018ABE;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+}
+
+.content .box-wrapper .phone-number input[type=number]::-webkit-inner-spin-button,
+.content .box-wrapper .phone-number input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.content .box-wrapper button {
+  display: block;
+  padding: 12px;
+  width: 100%;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 25px;
+}
+
+.content .box-wrapper button.btn-gradient {
+  background: -webkit-gradient(linear, left top, right top, from(#E51D35), to(#F26722));
+  background: linear-gradient(to right, #E51D35, #F26722);
+}
+
+.content .box-wrapper button.btn-facebook {
+  background: #3A589E;
+}
+
+.content .box-wrapper button.btn-twitter {
+  background: #1DA1F3;
+}
+
+.content .box-wrapper .btn-wrapper {
+  margin: 0 -2px 20px;
+  overflow: hidden;
+}
+
+.content .box-wrapper .btn-wrapper .col {
+  float: left;
+  padding: 0 2px;
+  width: 50%;
+}
+
+.content .box-wrapper .login-with {
+  text-align: center;
+}
+
+.content .box-wrapper .login-with a {
+  color: #018ABE;
+  font-size: 15px;
+  text-decoration: none;
+}
