@@ -23,20 +23,6 @@ export class SliderPage {
 		this.slider.slidePrev();
 	}
 
-	/*signUp() {
-		this.navCtrl.setRoot(SignupPage, {}, {
-			animate: true,
-			direction: 'forward'
-	});
-	}
-
-	signIn() {
-		this.navCtrl.setRoot(LoginPage, {}, {
-			animate: true,
-			direction: 'forward'
-		});
-	}*/
-
 	onSlideNext(slider) {
 		if (slider.isEnd()) {
 			this.navCtrl.push(HomePage);
