@@ -1,3 +1,30 @@
-page-home {
+.swiper-slide img {
+	height: 100%;
+	object-fit: cover;
+}
 
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+    position: relative;
+    width: 16px;
+    height: 16px;
+    background: none;
+    border: 1px solid transparent;
+    outline: none;
+    opacity: 1;
+
+    &.swiper-pagination-bullet-active {
+    	border-color: #fff;
+    }
+}
+
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet:before {
+	content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+	display: block;
+	width: 10px;
+    height: 10px;    
+    background: #fff;    
+    border-radius: 50%;
 }

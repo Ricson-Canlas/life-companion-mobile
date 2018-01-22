@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import * as $ from "jquery";
 
+import { UserInfoPage } from '../userinfo/userinfo';
 @Component({
   selector: 'page-confirm',
   templateUrl: 'confirm.html'
@@ -12,4 +12,11 @@ export class ConfirmPage {
   	
   }
 
+  toUserInfo(){
+  	this.navCtrl.push(UserInfoPage, null,{
+  	  
+  	});
+  }
+
 }
+

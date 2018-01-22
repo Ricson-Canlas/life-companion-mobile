@@ -25718,23 +25718,20 @@ ion-navbar.toolbar {
 
 .content .box-wrapper form .six-code p {
   padding: 15px;
+  padding-bottom: 0;
 }
 
-.content .box-wrapper ul li .resend {
-  padding-left: 15px;
-  padding-right: 95px;
+.content .box-wrapper .contact-options ul:last-child {
+  margin: 0;
+}
+
+.content .box-wrapper .contact-options ul li .resend,
+.content .box-wrapper .contact-options ul li .call {
   color: #9494af;
   text-decoration: none;
 }
 
-.content .box-wrapper ul li .call {
-  padding-left: 20px;
-  padding-right: 126px;
-  color: #9494af;
-  text-decoration: none;
-}
-
-.content .box-wrapper .divider {
+.content .box-wrapper .contact-options .divider {
   background: #f2f3f7;
   width: 100%;
   margin: 0 auto;
@@ -25769,7 +25766,6 @@ ion-navbar.toolbar {
   margin: 0;
   color: #9494AF;
   font-size: 14px;
-  text-align: center;
 }
 
 .content .box-wrapper p.text-orange {
@@ -25861,4 +25857,106 @@ ion-navbar.toolbar {
   color: #018ABE;
   font-size: 15px;
   text-decoration: none;
+}
+
+.swiper-slide img {
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  background: none;
+  border: 1px solid transparent;
+  outline: none;
+  opacity: 1;
+}
+
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  border-color: #fff;
+}
+
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet:before {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  display: block;
+  width: 10px;
+  height: 10px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+.user-info {
+  position: relative;
+  height: 100%;
+  background: #fff;
+}
+
+.user-info .header-logo {
+  height: auto;
+  background: -webkit-gradient(linear, left top, right top, from(#E51D35), to(#F26722));
+  background: linear-gradient(to right, #E51D35, #F26722);
+}
+
+.user-info .user-info-form {
+  padding: 20px;
+}
+
+.user-info .user-info-form p {
+  margin: 0;
+  color: #9494AF;
+  font-size: 14px;
+}
+
+.user-info .user-info-form input {
+  margin-bottom: 20px;
+  padding: 4px 0;
+  width: 100%;
+  color: #464646;
+  font-size: 14px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #e0e0e0;
+  border-radius: 0;
+}
+
+.user-info .user-info-form input:focus {
+  border-color: #009688;
+}
+
+.user-info .user-info-form select {
+  margin: 0 -3px;
+  padding: 4px 0;
+  width: 100%;
+  color: #464646;
+  font-size: 14px;
+  background: transparent;
+  border: none;
+}
+
+.user-info .user-info-form .btn-wrapper {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  padding: 0 30px;
+  width: 100%;
+}
+
+.user-info .user-info-form button {
+  display: block;
+  padding: 12px;
+  width: 100%;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 25px;
+}
+
+.user-info .user-info-form button.btn-gradient {
+  background: -webkit-gradient(linear, left top, right top, from(#E51D35), to(#F26722));
+  background: linear-gradient(to right, #E51D35, #F26722);
 }

@@ -1,0 +1,67 @@
+.user-info {
+	position: relative;
+	height: 100%;
+    background: #fff;
+
+	.header-logo {
+		height: auto;
+		background: linear-gradient(to right, #E51D35 , #F26722);
+	}
+
+	.user-info-form {
+		padding: 20px;
+
+		p {
+			margin: 0;
+			color: #9494AF;
+			font-size: 14px;
+		}
+
+		input {
+			margin-bottom: 20px;
+			padding: 4px 0;
+			width: 100%;
+			color: #464646;
+			font-size: 14px;
+			background: transparent;
+			border: none;
+			border-bottom: 1px solid #e0e0e0;
+			border-radius: 0;
+
+			&:focus {
+				border-color: #009688;
+			}
+		}
+
+		select {
+			margin: 0 -3px;
+			padding: 4px 0;
+			width: 100%;
+			color: #464646;
+			font-size: 14px;
+			background: transparent;
+			border: none;
+		}
+
+		.btn-wrapper {
+			position: absolute;
+			bottom: 20px;
+			left: 0;
+			padding: 0 30px;
+			width: 100%;
+		}
+
+		button {
+			display: block;
+			padding: 12px;
+			width: 100%;
+			color: #fff;
+			font-size: 15px;
+			border-radius: 25px;
+
+			&.btn-gradient {
+				background: linear-gradient(to right, #E51D35 , #F26722);
+			}
+		}
+	}
+}

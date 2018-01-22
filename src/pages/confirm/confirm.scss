@@ -26,31 +26,33 @@
 				}
 				p {
 					padding: 15px;
+					padding-bottom: 0;
 				}
 			}
 		}
-		ul {
-			li {
-				.resend {
-					padding-left: 15px;
-				    padding-right: 95px;
-				    color: #9494af;
-				    text-decoration: none;
+
+		.contact-options {
+			ul {
+				&:last-child {
+					margin: 0;
 				}
-				.call {
-					padding-left: 20px;
-    				padding-right: 126px;
-				    color: #9494af;
-				    text-decoration: none;
+				
+				li {
+					.resend,
+					.call {
+					    color: #9494af;
+					    text-decoration: none;
+					}
 				}
 			}
-		}
-		.divider {
-			background: #f2f3f7;
-			width: 100%;
-			margin: 0 auto;
-			height: 1px;
-			margin-bottom: 10px;
+
+			.divider {
+				background: #f2f3f7;
+				width: 100%;
+				margin: 0 auto;
+				height: 1px;
+				margin-bottom: 10px;
+			}
 		}
 	}
 }
