@@ -1,0 +1,56 @@
+.content {
+	.box-wrapper {
+		form {
+			.six-code {
+				input {
+					padding: 20px;
+					width: 100%;
+					color: #018ABE;
+					font-size: 14px;
+					border-bottom: 2px solid #66cccc;
+					border-left: none;
+					border-right: none;
+					border-top: none;
+					text-align: center;
+
+					&::placeholder {
+						color: #9494af;
+						font-size: 20px;
+					}
+				}
+
+				input[type=number]::-webkit-inner-spin-button, 
+				input[type=number]::-webkit-outer-spin-button { 
+				  -webkit-appearance: none; 
+				  margin: 0; 
+				}
+				p {
+					padding: 15px;
+				}
+			}
+		}
+		ul {
+			li {
+				.resend {
+					padding-left: 15px;
+				    padding-right: 95px;
+				    color: #9494af;
+				    text-decoration: none;
+				}
+				.call {
+					padding-left: 20px;
+    				padding-right: 126px;
+				    color: #9494af;
+				    text-decoration: none;
+				}
+			}
+		}
+		.divider {
+			background: #f2f3f7;
+			width: 100%;
+			margin: 0 auto;
+			height: 1px;
+			margin-bottom: 10px;
+		}
+	}
+}

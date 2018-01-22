@@ -11,12 +11,13 @@ import { MyApp } from './app.component';
 //Modules
 import { HomePage } from '../pages/home/home';
 import { SliderPage } from '../pages/slider/slider';
+import { ConfirmPage } from '../pages/confirm/confirm';
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     SliderPage,
-
+    ConfirmPage
   ],
   imports: [
     BrowserModule,
@@ -27,7 +28,8 @@ import { SliderPage } from '../pages/slider/slider';
   entryComponents: [
     MyApp,
     HomePage,
-    SliderPage
+    SliderPage,
+    ConfirmPage
   ],
   providers: [
     StatusBar,

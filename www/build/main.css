@@ -25678,6 +25678,70 @@ ion-navbar.toolbar {
   min-height: calc(46px + env(safe-area-inset-bottom));
 }
 
+.content .box-wrapper form .six-code input {
+  padding: 20px;
+  width: 100%;
+  color: #018ABE;
+  font-size: 14px;
+  border-bottom: 2px solid #66cccc;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  text-align: center;
+}
+
+.content .box-wrapper form .six-code input::-webkit-input-placeholder {
+  color: #9494af;
+  font-size: 20px;
+}
+
+.content .box-wrapper form .six-code input:-ms-input-placeholder {
+  color: #9494af;
+  font-size: 20px;
+}
+
+.content .box-wrapper form .six-code input::-ms-input-placeholder {
+  color: #9494af;
+  font-size: 20px;
+}
+
+.content .box-wrapper form .six-code input::placeholder {
+  color: #9494af;
+  font-size: 20px;
+}
+
+.content .box-wrapper form .six-code input[type=number]::-webkit-inner-spin-button,
+.content .box-wrapper form .six-code input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.content .box-wrapper form .six-code p {
+  padding: 15px;
+}
+
+.content .box-wrapper ul li .resend {
+  padding-left: 15px;
+  padding-right: 95px;
+  color: #9494af;
+  text-decoration: none;
+}
+
+.content .box-wrapper ul li .call {
+  padding-left: 20px;
+  padding-right: 126px;
+  color: #9494af;
+  text-decoration: none;
+}
+
+.content .box-wrapper .divider {
+  background: #f2f3f7;
+  width: 100%;
+  margin: 0 auto;
+  height: 1px;
+  margin-bottom: 10px;
+}
+
 .header-logo {
   padding: 20px;
   height: 230px;
